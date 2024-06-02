@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!--  *****   Link To Custom CSS Style sheet   *****  -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-s35X+k6ef+vHGNQo9GfZKdkPDOLN7HArsLo0SO2s/6P0qrDFV1pCQxP3kxhIaxb3Vdp9gV+09kiDz/OW3FbgZg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+	<!--  *****   Link To Font Awsome Icons   *****  -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+
+	<!--   ***** Link To Magnific Popup CSS *****   -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css"/>
+
+	<!--   ***** Links To OwlCarousel CSS *****   -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"/>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Priya Portfolio</title>
+</head>
+<body>
+<!--   *** Website Container Starts ***   -->
+<div class="Website-container">
+	
+<!--   *** Home Section Starts ***   -->
+<section class="home" id="home">
+	
+	<!--   === Navbar Starts ===   -->
+	<nav class="navbar">
+		<div class="logo">
+			<img src="images/giflogo.gif">
+		</div>
+
+	
+		<ul class="nav-links">
+			<li><a href="#home" onmouseover="showText('home');" onmouseout="hideText('home');" onclick="navigateToSection('home');"><i id="home-icon" class="fas fa-home" style="font-size: 24px;"></i><span id="home-text" class="text" style="display:none;"> Home</span></a></li>
+			<li><a href="#about" onmouseover="showText('about');" onmouseout="hideText('about');" onclick="navigateToSection('about');"><i id="about-icon" class="fas fa-info-circle" style="font-size: 24px;"></i><span id="about-text" class="text" style="display:none;"> About</span></a></li>
+			<li><a href="#services" onmouseover="showText('services');" onmouseout="hideText('services');" onclick="navigateToSection('services');"><i id="services-icon" class="fas fa-cogs" style="font-size: 24px;"></i><span id="services-text" class="text" style="display:none;"> Services</span></a></li>
+			<li><a href="#portfolio" onmouseover="showText('portfolio');" onmouseout="hideText('portfolio');" onclick="navigateToSection('portfolio');"><i id="portfolio-icon" class="fas fa-folder-open" style="font-size: 24px;"></i><span id="portfolio-text" class="text" style="display:none;"> Portfolio</span></a></li>
+			  <li><a href="#resume-skills" onmouseover="showText('skills');" onmouseout="hideText('skills');" onclick="navigateToSection('resume-skills');"><i id="skills-icon" class="fas fa-clipboard-list" style="font-size: 24px;"></i><span id="skills-text" class="text" style="display:none;"> Skills</span></a></li>
+			<li><a href="#testimonials" onmouseover="showText('testimonials');" onmouseout="hideText('testimonials');" onclick="navigateToSection('testimonials');"><i id="testimonials-icon" class="fas fa-star" style="font-size: 24px;"></i><span id="testimonials-text" class="text" style="display:none;"> Reviews</span></a></li>
+		  </ul>
+  
+		<a href="#contactForm" class="button-wrapper">
+			<button class="btn contact-btn">Contact</button>
+		</a>
+
+		<div class="menu-btn">
+			<span class="bar"></span>
+			<span class="bar"></span>
+			<span class="bar"></span>
+		</div>
+	</nav>
+	<!--   === Navbar Ends ===   -->
+
+	<!--   === Hero Starts ===   -->
+	<div class="hero">
+		<div class="hero-text">
+			<h3>Hey, There</h3>
+			<h1>I am Priya Choudhary</h1>
+			<h2> Web Designer &  Full Stack Developer</h2>
+			<p>🌟 Let's connect and create something amazing together! ✨</p>
+			<button class="btn hire-btn">Hire Me</button>
+		</div>
+
+		<div class="hero-image">
+			<img src="images/heroimage.jpg">
+		</div>
+	</div>
+	<!--   === Hero Ends ===   -->
+
+	<!--   === Career Bar Starts ===  -->
+	<div class="career-container">
+		<div class="career-item">
+			<span class="icon"><i class="fa-solid fa-briefcase"></i></span>
+			<span class="career-desc">
+				<h2>I am a</h2>
+				<p>Fresher</p>
+			</span>
+		</div>
+
+		<div class="career-item">
+			<span class="icon"><i class="fa-solid fa-file"></i></span>
+			<span class="career-desc">
+				<h2>5+ Projects</h2>
+				<p>Completed</p>
+			</span>
+		</div>
+
+	<!----	<div class="career-item">
+			<span class="icon"><i class="fa-solid fa-heart"></i></span>
+			<span class="career-desc">
+				<h2>200+ Happy</h2>
+				<p>Clients</p>
+			</span>
+		</div>-->
+	</div>
+	<!--   === Career Bar Ends ===  -->
+
+</section>
+<!--   *** Home Section Ends ***   -->
+
+<!--   *** About Section Starts ***   -->
+<section class="about" id="about">
+	
+	<!--   === About Image Starts ===   -->
+	<div class="about-image">
+		<img src="images/my_image.jpg">
+		<div class="social-media">
+			<a href="https://www.facebook.com/">
+				<i class="fa-brands fa-facebook-f"></i>
+			</a>
+			<a href="https://www.linkedin.com/in/priya-choudhary-88a79a28b">
+				<i class="fa-brands fa-linkedin-in linkedinicon"></i>
+			</a>
+			<a href="https://www.instagram.com/">
+				<i class="fa-brands fa-instagram"></i>
+			</a>
+			<a href="https://twitter.com/">
+				<i class="fa-brands fa-twitter"></i>
+			</a>
+			<a href="https://github.com/priya281220/priya281220">
+				<i class="fa-brands fa-github"></i>
+			</a>
+		</div>
+		
+	</div>
+	<!--   === About Image Ends ===   -->
+
+	<!--   === About Description Starts ===   -->
+	<div class="about-desc">
+		<h3>About Me</h3>
+		<h2>A Web Designer & Developer seeking for experience</h2>
+		<p>🎓 BSc graduate in Physics, Chemistry, and Mathematics (PCM) 📚, currently pursuing MCA 🖥️. Passionate about coding .</p>
+		<p>🛠️ <B>Projects:</B><br>
+			- Blogging Platform<br>
+			- Shopping Cart Application<br>
+			- Contact Management System</p>
+		<div class="about-personal-info">
+			<div><span>Name:</span><span> Priya Choudhary</span></div>
+			<div><span>Age:</span><span>23 Years</span></div>
+			<div><span>Email:</span><span>priyachoudhary2812@gmail.com</span></div>
+			<div><span>Hobby:</span><span>Reading Quotes</span></div>
+		</div>
+		<button class="btn download-btn" onclick="downloadResume()">Download CV</button>
+
+<script>
+function downloadResume() {
+    // Replace 'path_to_your_resume/priyaresume.pdf' with the actual path to your resume file
+    var resumePath = 'images/profile6.jpg';
+    var downloadFileName = 'priyaresume.pdf';
+
+    // Create a link element
+    var a = document.createElement("a");
+    a.href = resumePath;
+    a.download = downloadFileName;
+
+    // Append the link to the body
+    document.body.appendChild(a);
+
+    // Click the link to trigger the download
+    a.click();
+
+    // Remove the link from the body
+    document.body.removeChild(a);
+}
+</script>
+
+	</div>
+	<!--   === About Description Ends ===   -->
+
+</section>
+<!--   *** About Section Ends ***   -->
+
+<!--   *** Services Section Starts ***   -->
+<section class="services reusable" id="services">
+	
+	<!--   === Headings Text Starts ===   -->
+	<header class="headings">
+		<h3>Services</h3>
+		<h1>I can provide the following Services</h1>
+		<p>I have applied my theoretical knowledge to make some projects.</p>
+	</header>
+	<!--   === Headings Text Ends ===   -->
+
+	<!--   === Services Box Container Starts ===   -->
+	<div class="services-container">
+		
+		<div class="service-box">
+			<div class="icon-wrapper">
+				<i class="fa-solid fa-palette"></i>
+			</div>
+			<h2>Web Design</h2>
+			<p>Web design primarily focuses on the visual aspects and user experience of a website. It involves creating layouts, selecting color schemes, choosing fonts, and designing graphical elements like logos and icons. I often use tools like Adobe Photoshop, Sketch, or Figma to create mockups and prototypes of websites.</p>
+			<h3>2  Projects</h3>
+		</div>
+
+		<div class="service-box">
+			<div class="icon-wrapper">
+				<i class="fa-solid fa-code"></i>
+			</div>
+			<h2>Frontend</h2>
+			<p>I have made some frontend projects using HTML, CSS, JS even my portfolio.</p>
+			<h3>4+ Projects</h3>
+		</div>
+
+		<div class="service-box">
+			<div class="icon-wrapper">
+				<i class="fa-solid fa-mobile-screen"></i>
+			</div>
+			<h2>Full Stack</h2>
+			<p>I have made 3 projects using MERN Stack like-blogging website,contact management system,shopping cart.</p>
+			<h3>3 Projects</h3>
+		</div>
+
+	</div>
+	<!--   === Services Box Container Ends ===   -->
+
+</section>
+<!--   *** Services Section Ends ***   -->
+
+<!--   *** Resume Section Starts ***   -->
+<section class="resume reusable" id="resume">
+	
+	<!--   === Headings Text Starts ===   -->
+	<header class="headings">
+		<!--<h3>Resume</h3>-->
+		<h1>Education</h1>
+		<B><p>These are the Qualifications that I have .</p></B>
+	</header>
+	<!--   === Headings Text Ends ===   -->
+
+	<!--   === Education Section Starts ===   -->
+	<section class="resume-section">
+		<!--   === Resume Row Starts ===   -->
+		<div class="resume-row">
+			
+			<!--   === Left Column Starts ===   -->
+			<div class="column column-left">
+				<header class="sub-heading">
+					<!--<h2>EDUCATION</h2>-->
+				</header>
+
+				<main class="resume-contents">
+					<div class="box" style="display: flex; align-items: center;">
+						<img src="https://i.pngimg.me/thumb/f/720/m2i8d3H7b1m2d3N4.jpg" alt="School Logo" style="width: 100px; height: auto; margin-right: 20px;">
+						<div class="details" style="flex: 1;">
+							<h4 style="margin-top: 0;">2022 - 2024</h4>
+							<h3 style="margin-top: 0;">Master of Computer Application(PURSUING)</h3>
+							<p  style="font-size:20px ;color: black;"><B>81.2 % till 2nd SEM</B></p>
+						
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam aut quod incidunt quos quia cum deleniti illum hic. Sequi aperiam architecto ratione corporis rem non voluptate voluptatem consequatur recusandae praesentium.</p>	
+						
+							<h5 class="venue"><B>Dr. A.P.J. ABDUL KALAM TECHNICAL UNIVERSITY , LUCKNOW.</B></h5>
+						</div>
+					</div>
+
+					<div class="box" style="display: flex; align-items: center;">
+						<img src="https://www.ccsuniversity.ac.in/assests/images/CCSU-Logo.jpg" alt="School Logo" style="width: 100px; height: auto; margin-right: 20px;">
+						<div class="details" style="flex: 1;">
+							<h4 style="margin-top: 0;">2017 - 2020</h4>
+							<h3 style="margin-top: 0;">Bachelor's Of Science (PCM)</h3>
+							<p  style="font-size:20px ;color:black"><B>75 %</B></p>
+							<h5 class="venue"><B>CHAUDHARY CHARAN SIGH UNIVERSITY , MEERUT</B></h5>
+						</div>
+					</div>
+
+					<div class="box" style="display: flex; align-items: center;">
+						<img src="https://static.wixstatic.com/media/8e9114_7200a66c9bd34b9e8f9bddc0e654d1d5~mv2.png/v1/fill/w_156,h_156,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/logo.png" alt="School Logo" style="width: 100px; height: auto; margin-right: 20px;">
+						<div class="details" style="flex: 1;">
+							<h4 style="margin-top: 0;">2017</h4>
+							<h3 style="margin-top: 0;">Intermediate</h3>
+							<p  style="font-size:20px ;color: black;"><B>83.4 %</B></p>
+							<h5 class="venue"><B>ST. R.C. CONVENT SCHOOL, SHAMLI, U.P.</B></h5>
+						</div>
+					</div>
+
+					<div class="box" style="display: flex; align-items: center;">
+						<img src="https://static.wixstatic.com/media/8e9114_7200a66c9bd34b9e8f9bddc0e654d1d5~mv2.png/v1/fill/w_156,h_156,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/logo.png" alt="School Logo" style="width: 100px; height: auto; margin-right: 20px;">
+						<div class="details" style="flex: 1;">
+							<h4 style="margin-top: 0;">2016</h4>
+							<h3 style="margin-top: 0;">High School</h3>
+					<p  style="font-size:20px ;color: black;"><B>8.4 CGPA</B></p>
+							<h5 class="venue"><B>ST. R.C. CONVENT SCHOOL, SHAMLI, U.P.</B></h5>
+						</div>
+					</div>
+				</main>
+			</div>
+			<!--   === Left Column Ends ===   -->
+
+		</div>
+		<!--   === Resume Row Ends ===   -->
+	</section>
+	<!--   === Education Section Ends ===   -->
+
+</section>
+<!--   *** Resume Section Ends ***   -->
+<!-- *** Skills Section Starts *** -->
+<section class="resume reusable" id="resume-skills">
+    <header class="headings">
+        <h1>Skills</h1>
+        <p>Skills that I Learned.</p>
+    </header>
+
+    <div class="resume-section">
+        <main class="resume-contents skills-container" style="display: flex; flex-wrap: wrap;">
+            <!-- Skill 1 -->
+            <div class="box skill" onmouseover="this.style.backgroundColor='rgba(5, 85, 92, 0.7)';" onmouseout="this.style.backgroundColor='';" style="flex-basis: calc(25% - 10px); margin-right: 10px;border: 2.5px solid darkcyan;">
+                <h3><i class="icon fab fa-html5" style="margin-right: 15px; font-size: 45px;"></i>HTML 5</h3>
+                <h5 class="venue">w3 School</h5>
+                <div class="logo"><i class="fa-solid fa-code" style="color:lightcyan"></i></div>
+            </div>
+
+            <!-- Skill 2 -->
+            <div class="box skill" onmouseover="this.style.backgroundColor='rgba(5, 85, 92, 0.7)';" onmouseout="this.style.backgroundColor='';" style="flex-basis: calc(25% - 10px); margin-right: 10px;border: 2.5px solid darkcyan;">
+                <h3><i class="icon fab fa-css3-alt" style="margin-right: 15px; font-size: 45px;"></i>CSS</h3>
+                <h5 class="venue">Development World</h5>
+                <div class="logo"><i class="fa-solid fa-code" style="color:lightcyan"></i></div>
+            </div>
+
+            <!-- Skill 3 -->
+            <div class="box skill" onmouseover="this.style.backgroundColor='rgba(5, 85, 92, 0.7)';" onmouseout="this.style.backgroundColor='';" style="flex-basis: calc(25% - 10px); margin-right: 10px;border: 2.5px solid darkcyan;">
+                <h3><i class="icon fab fa-js" style="margin-right: 15px; font-size: 45px;"></i>JAVASCRIPT</h3>
+                <h5 class="venue">Design House</h5>
+                <div class="logo"><i class="fa-solid fa-code"  style="color:lightcyan"></i></div>
+            </div>
+
+            <!-- Skill 4 -->
+            <div class="box skill" onmouseover="this.style.backgroundColor='rgba(5, 85, 92, 0.7)';" onmouseout="this.style.backgroundColor='';" style="flex-basis: calc(25% - 10px);border: 2.5px solid darkcyan;">
+                <h3><i class="icon fab fa-cuttlefish" style="margin-right: 15px; font-size: 45px;"></i>C (Basics)</h3>
+                <h5 class="venue">Design House</h5>
+                <div class="logo"><i class="fa-solid fa-code " style="color:lightcyan"></i></div>
+            </div>
+			 <!-- Skill 5 -->
+			<div class="box skill" onmouseover="this.style.backgroundColor='rgba(5, 85, 92, 0.7)';" onmouseout="this.style.backgroundColor='';" style="flex-basis: calc(25% - 10px); margin-right: 10px;border: 2.5px solid darkcyan;">
+				<h3><i class="icon fab fa-java" style="margin-right: 15px; font-size: 45px;"></i>Core Java</h3>
+				<h5 class="venue">Design House</h5>
+				<div class="logo"><i class="fa-solid fa-code" style="color:lightcyan"></i></div>
+			</div>
+			 <!-- Skill 6 -->
+			 <div class="box skill" onmouseover="this.style.backgroundColor='rgba(5, 85, 92, 0.7)';" onmouseout="this.style.backgroundColor='';" style="flex-basis: calc(25% - 10px); margin-right: 10px;border: 2.5px solid darkcyan;">
+				<h3><i class="icon fab fa-node-js" style="margin-right: 15px; font-size: 45px;"></i>MERN</h3>
+				<h5 class="venue">Design House</h5>
+				<div class="logo"><i class="fa-solid fa-code" style="color:lightcyan"></i></div>
+			</div>
+			 <!-- Skill 7 -->
+			<div class="box skill" onmouseover="this.style.backgroundColor='rgba(5, 85, 92, 0.7)';" onmouseout="this.style.backgroundColor='';" style="flex-basis: calc(25% - 10px);border: 2.5px solid darkcyan;">
+				<h3><i class="icon fab fa-microsoft" style="margin-right: 15px; font-size: 45px;"></i>Visual Studio</h3>
+				<h5 class="venue">Microsoft Corporation</h5>
+				<div class="logo"><i class="fa-solid fa-code " style="color:lightcyan"></i></div>
+			</div>
+
+        </main>
+	
+		
+		 <!-- Skill 5-->
+	
+		
+    </div>
+</section>
+<!-- *** Skills Section Ends *** -->
+
+
+
+
+
+
+<!--   *** Resume Section Ends ***   -->
+
+<!--   *** Portfolio Section Starts ***   -->
+<section class="portfolio reusable" id="portfolio">
+	
+	<!--   === Headings Text Starts ===   -->
+	<header class="headings">
+		<h3>Portfolio</h3>
+		<h1>Some Of My Latest Works</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+	</header>
+	<!--   === Headings Text Ends ===   -->
+
+	<main class="mainContainer">
+		
+		<!--   === Buttons Group Starts ===   -->
+		<div class="button-group">
+			<button class="button active" data-filter="*">All</button>
+			<button class="button" data-filter=".design">Frontend</button>
+			<button class="button" data-filter=".code">Fullstack</button>
+			<button class="button" data-filter=".logo">Blogs</button>
+		</div>
+		<!--   === Buttons Group Ends ===   -->
+
+		<!--   === Gallery Starts ===   -->
+		<div class="gallery">
+			
+			<!--   === Item1 Starts ===   -->
+			<div class="item design">
+				<img src="images/login-7626822_1280.webp">
+				<div class="overlay">
+					
+				    <a href="#" onclick="openInNewTab('https://priya281220.github.io/LOGINPAGE/'); return false;">VIEW MORE</a>
+				</div>
+			</div>
+			<!--   === Item1 Ends ===   -->
+
+			<!--   === Item2 Starts ===   -->
+			<div class="item logo">
+				<img src="images/website3.jpg">
+				<div class="overlay">
+					<a href="images/website3.jpg">VIEW MORE</a>
+				</div>
+			</div>
+			<!--   === Item2 Ends ===   -->
+
+			<!--   === Item3 Starts ===   -->
+		<div class="item code">
+    <a href="images/blog1.jpg" target="_blank">
+        <img src="images/blog1.jpg">
+    </a>
+    <div class="overlay">
+        <a href="#" onclick="openInNewTab('https://mern-blog-web-pluw.onrender.com/'); return false;">VIEW MORE</a>
+    </div>
+</div>
+			<!--   === Item3 Ends ===   -->
+
+			<!--   === Item4 Starts ===   -->
+			<div class="item code">
+				<img src="images/online-shopping.jpg">
+				<div class="overlay">
+					<a href="images/online-shopping.jpg">VIEW MORE</a>
+				</div>
+			</div>
+			<!--   === Item4 Ends ===   -->
+
+			<!--   === Item5 Starts ===   -->
+			<div class="item design">
+				<img src="images/net.jpg">
+				<div class="overlay">
+				    <a href="#" onclick="openInNewTab('https://priya281220.github.io/bharatnetflix/'); return false;">VIEW MORE</a>
+				</div>
+			</div>
+		
+			<!--   === Item5 Ends ===   -->
+
+			<!--   === Item6 Starts ===   -->
+			<div class="item logo">
+				<img src="images/logo1.jpg">
+				<div class="overlay">
+					<a href="images/logo1.jpg">VIEW MORE</a>
+				</div>
+			</div>
+			<!--   === Item6 Ends ===   -->
+
+		</div>
+		<!--   === Gallery Ends ===   -->
+
+	</main>
+
+</section>
+<!--   *** Portfolio Section Ends ***   -->
+
+<!--   *** Testimonials Section Starts ***   -->
+<section class="testimonials reusable" id="testimonials">
+	
+	<!--   === Headings Text Starts ===   -->
+	<header class="headings">
+		<h3>Testimonials</h3>
+		<h1>What People Say</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+	</header>
+	<!--   === Headings Text Ends ===   -->
+
+	<!--   === Owl Carousel Slider Container Starts ===   -->
+	<div class="owl-carousel owl-theme testimonials-container">
+
+		<!--   === Card1 Starts ===   -->
+    	<div class="item testimonial-card">
+    		<main class="test-card-body">
+    			<div class="quote">
+    				<i class="fa fa-quote-left"></i>
+    				<h2>Awesome Coding</h2>
+    			</div>
+    			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse.</p>
+    			<div class="ratings">
+    				<i class="fa-solid fa-star"></i>
+    				<i class="fa-solid fa-star"></i>
+    				<i class="fa-solid fa-star"></i>
+    				<i class="fa-solid fa-star"></i>
+    				<i class="fa-solid fa-star"></i>
+    			</div>
+    		</main>
+    		<div class="profile">
+    			<div class="profile-image">
+    				<img src="images/riya.jpg">
+    			</div>
+    			<div class="profile-desc">
+    				<span>Riya Choudhary</span>
+    				<span>B.Tech(CSE)</span>
+    			</div>
+    		</div>
+    	</div>
+    	<!--   === Card1 Ends ===   -->
+
+    	<!--   === Card2 Starts ===   -->
+    	<div class="item testimonial-card">
+    		<main class="test-card-body">
+    			<div class="quote">
+    				<i class="fa fa-quote-left"></i>
+    				<h2>Unique Design</h2>
+    			</div>
+    			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse.</p>
+    			<div class="ratings">
+    				<i class="fa-solid fa-star"></i>
+    				<i class="fa-solid fa-star"></i>
+    				<i class="fa-solid fa-star"></i>
+    				<i class="fa-solid fa-star"></i>
+    				<i class="fa-solid fa-star"></i>
+    			</div>
+    		</main>
+    		<div class="profile">
+    			<div class="profile-image">
+    				<img src="images/priyanshu.jpg">
+    			</div>
+    			<div class="profile-desc">
+    				<span>Priyanshu Choudhary</span>
+    				<span>B.Tech(CSE)</span>
+    			</div>
+    		</div>
+    	</div>
+    	<!--   === Card2 Ends ===   -->
+
+    	<!--   === Card3 Starts ===   -->
+    	<div class="item testimonial-card">
+    		<main class="test-card-body">
+    			<div class="quote">
+    				<i class="fa fa-quote-left"></i>
+    				<h2>Just Awesome</h2>
+    			</div>
+    			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse.</p>
+    			<div class="ratings">
+    				<i class="fa-solid fa-star"></i>
+    				<i class="fa-solid fa-star"></i>
+    				<i class="fa-solid fa-star"></i>
+    				<i class="fa-solid fa-star"></i>
+    				<i class="fa-solid fa-star"></i>
+    			</div>
+    		</main>
+    		<div class="profile">
+    			<div class="profile-image">
+    				<img src="#">
+    			</div>
+    			<div class="profile-desc">
+    				<span>Ankur Arya</span>
+    				<span>Talent Aquisition Specialist @ Siemens Energy ,Recruitment ,Power BI</span>
+    			</div>
+    		</div>
+    	</div>
+    	<!--   === Card3 Ends ===   -->
+
+    	<!--   === Card4 Starts ===   -->
+    	<div class="item testimonial-card">
+    		<main class="test-card-body">
+    			<div class="quote">
+    				<i class="fa fa-quote-left"></i>
+    				<h2>Awesome Coding</h2>
+    			</div>
+    			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse.</p>
+    			<div class="ratings">
+    				<i class="fa-solid fa-star"></i>
+    				<i class="fa-solid fa-star"></i>
+    				<i class="fa-solid fa-star"></i>
+    				<i class="fa-solid fa-star"></i>
+    				<i class="fa-solid fa-star"></i>
+    			</div>
+    		</main>
+    		<div class="profile">
+    			<div class="profile-image">
+    				<img src="images/pragya.jpg">
+    			</div>
+    			<div class="profile-desc">
+    				<span>Pragya</span>
+    				<span>Master Of Computer Application</span>
+    			</div>
+    		</div>
+    	</div>
+    	<!--   === Card4 Ends ===   -->
+
+    	<!--   === Card5 Starts ===   -->
+    	<div class="item testimonial-card">
+    		<main class="test-card-body">
+    			<div class="quote">
+    				<i class="fa fa-quote-left"></i>
+    				<h2>Simple Ways</h2>
+    			</div>
+    			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse.</p>
+    			<div class="ratings">
+    				<i class="fa-solid fa-star"></i>
+    				<i class="fa-solid fa-star"></i>
+    				<i class="fa-solid fa-star"></i>
+    				<i class="fa-solid fa-star"></i>
+    				<i class="fa-solid fa-star"></i>
+    			</div>
+    		</main>
+    		<div class="profile">
+    			<div class="profile-image">
+    				<img src="images/Tanu.jpg">
+    			</div>
+    			<div class="profile-desc">
+    				<span>Tanu Pal</span>
+    				<span>Master Of Computer Application</span>
+    			</div>
+    		</div>
+    	</div>
+    	<!--   === Card5 Ends ===   -->
+
+    	<!--   === Card6 Starts ===   -->
+    	<!--<div class="item testimonial-card">
+    		<main class="test-card-body">
+    			<div class="quote">
+    				<i class="fa fa-quote-left"></i>
+    				<h2>Awesome Coding</h2>
+    			</div>
+    			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse.</p>
+    			<div class="ratings">
+    				<i class="fa-solid fa-star"></i>
+    				<i class="fa-solid fa-star"></i>
+    				<i class="fa-solid fa-star"></i>
+    				<i class="fa-solid fa-star"></i>
+    				<i class="fa-solid fa-star"></i>
+    			</div>
+    		</main>
+    		<div class="profile">
+    			<div class="profile-image">
+    				<img src="images/profile6.jpg">
+    			</div>
+    			<div class="profile-desc">
+    				<span>Etimad Khan</span>
+    				<span>Description</span>
+    			</div>
+    		</div>
+    	</div>-->
+    	<!--   === Card6 Ends ===   -->
+
+	</div>
+	<!--   === Owl Carousel Slider Container Ends ===   -->
+
+</section>
+<!--   *** Testimonials Section Ends ***   -->
+
+<!--   *** Contact Section Starts ***   -->
+<section class="contact-form" id="contactForm">
+	<div class="contact-row">
+		
+		<!--   === Left Column Starts ===   -->
+		<div class="contact-col column-1">
+			<div class="contactTitle">
+				<h2>Get In Touch</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+			</div>
+
+			<form class="form-1">
+				<div class="inputGroup">
+					<input type="text" name="" required="required">
+					<label>Your Name</label>
+				</div>
+
+				<div class="inputGroup">
+					<input type="email" name="" required="required">
+					<label>Email</label>
+				</div>
+			</form>
+
+		</div>
+		<!--   === Left Column Ends ===   -->
+
+		<!--   === Right Column Starts ===   -->
+		<div class="contact-col column-2">
+			<form class="form-2">
+				<div class="inputGroup">
+					<textarea required="required"></textarea>
+					<label>Say Something</label>
+				</div>
+				<button class="form-button">MESSAGE ME</button>
+			</form>
+		</div>
+		<!--   === Right Column Ends ===   -->
+
+	</div>
+</section>
+<!--   *** Contact Section Ends ***   -->
+
+<!--   *** Footer Section Starts ***   -->
+<section class="page-footer">
+	
+	<footer class="footer-contents" style="display: flex; flex-direction: column; align-items: center; text-align: center;">
+		<!--<a href="#">Priya </a>-->
+		<p style="margin: 0;">Created by <span>Priya Choudhary</span> | All rights reserved.</p>
+	
+		<div class="contactSocialMedia" style="margin-top: 10px;">
+			<a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+			<a href="#"><i class="fa-brands fa-twitter"></i></a>
+			<a href="#"><i class="fa-brands fa-instagram"></i></a>
+			<a href="https://www.linkedin.com/in/priya-choudhary-88a79a28b"><i class="fa-brands fa-linkedin-in linkedinicon"></i></a>
+		</div>
+	
+	</footer>
+	
+	
+</section>
+<!--   *** Footer Section Ends ***   -->
+
+
+
+</div>
+<!--   *** Website Container Ends ***   -->
+
+
+
+
+<!--   *** Link To JQuery ***   -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js" ></script>
+
+<!--   *** Link To Isotope ***   -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"></script>
+
+<!--   *** Link To Magnific Popup ***   -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+
+<!--   *** Link To OwlCarousel Js ***   -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+<!--   *** Link To Custom Script File ***   -->
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
